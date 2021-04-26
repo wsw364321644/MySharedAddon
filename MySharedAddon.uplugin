@@ -1,0 +1,33 @@
+{
+	"FileVersion" : 1,
+	"Version" : 1,
+	"FriendlyName" : "MySharedAddon",
+	"Description" : "",
+	"Category" : "Addon",
+	"CreatedBy" : "OBOT",
+	"EnabledByDefault" : true,
+	"Modules" :
+	[
+    {
+      "Name": "MySharedAddon",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault",
+      "WhitelistPlatforms": [
+        "Win64",
+
+      ],
+      "BlacklistPlatforms": [
+        "Win32",
+        "PS4",
+        "XboxOne"
+      ]
+      
+		}
+	],
+   "Plugins": [                 
+     {                              
+       "Name": "ProceduralMeshComponent",  
+       "Enabled": true              
+     }                              
+   ]                   
+}
